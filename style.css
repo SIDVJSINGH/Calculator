@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: fantasy;
+    outline: none;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    height: auto;
+    display: flexbox;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px azure, 5px 5px 12px rgba(0, 0, 0, 16);
+    display: grid;
+    grid-template-columns: repeat(4, 55px);
+}
+
+input {
+    grid-column: span 4;
+    background-color: azure;
+    border: none;
+    box-shadow: inset -5px -5px 12px, 5px 5px 12px rgb(0, 0, 0);
+    color: rgb(70, 70, 70);
+    list-style-type: lower-latin;
+}
+
+.button {
+    height: 45px;
+    width: 45px;
+    background-color: azure;
+    border: none;
+    box-shadow: inset 2px 2px 5px, 2px 2px 2px rgb(0, 0, 0);
+    border-radius: 25px;
+    cursor: grab;
+    margin: 5px;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bolder;
+}
+
+.inputbar {
+    height: 50px;
+    width: 200px;
+    font-size: 40px;
+    background-color: yellow;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border-radius: 20px;
+    font-weight: 100px;
+    text-align: end;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.last-button {
+    height: 45px;
+    width: 45px;
+    background-color: azure;
+    border: none;
+    box-shadow: inset 2px 2px 5px, 2px 2px 2px rgb(0, 0, 0);
+    border-radius: 25px;
+    cursor: grab;
+    margin: 5px;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bolder;
+}
